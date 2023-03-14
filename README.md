@@ -310,6 +310,8 @@ covid_survey_summary_stats
     scale.
     
     a. Create a diverging bar chart.
+    
     b. Create a 100% bar chart.
+    
     c. Comment on how the two charts from parts (a) and (b) compare with regards 
     to comparability.
