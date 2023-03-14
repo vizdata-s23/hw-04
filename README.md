@@ -303,9 +303,13 @@ covid_survey_summary_stats
     constructed in Exercise 2? Does it change any of your conclusions
     about the data? Explain your reasoning.
 
-5.  **COVID survey - another view.** Create a different visualization of the 
+5.  **COVID survey - another view.** Create two bar charts of the 
     Likert data for the six survey questions in from the plot in Exercise 2.
     This should be a single plot visualizing the percentages of each possible 
     answer, with different questions on the y-axis. Use an appropriate color 
-    scale and alignment.
-
+    scale.
+    
+    a. Create a diverging bar chart.
+    b. Create a 100% bar chart.
+    c. Comment on how the two charts from parts (a) and (b) compare with regards 
+    to comparability.
