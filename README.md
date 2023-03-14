@@ -86,7 +86,7 @@ all checks pass.
 <img src="images/plot-10-90-1.png" width="100%" />
 
 3.  **COVID survey - reconstruct.** In this exercise you will
-    reconstruct the plot provided in Exercise 1. You can find the raw
+    reconstruct the plot provided in Exercise 2. You can find the raw
     data in `data/survey.csv`. Additional information on the survey can
     be found in `data/covid_survey.pdf`.
 
@@ -148,13 +148,13 @@ all checks pass.
     `pivot_longer()` statement is doing in this code.
 
 ``` r
-covid_survey_longer <- covid_survey %>%
+covid_survey_longer <- covid_survey |>
   pivot_longer(
     cols = starts_with("exp_"),
     names_to = "explanatory",
     values_to = "explanatory_value"
-  ) %>%
-  filter(!is.na(explanatory_value)) %>%
+  ) |>
+  filter(!is.na(explanatory_value)) |>
   pivot_longer(
     cols = starts_with("resp_"),
     names_to = "response",
@@ -257,7 +257,7 @@ covid_survey_summary_stats
 
 -   Using the data frame you created in the previous step
     (`covid_survey_summary_stats`), recreate the visualization from
-    Exercise 1. The following hints should help you along the way:
+    Exercise 2. The following hints should help you along the way:
     -   The survey prompts used for the response variables are as
         follows:
         -   “resp_safety” = “Based on my understanding, I believe the
@@ -302,3 +302,10 @@ covid_survey_summary_stats
     explanatory variables. How does this plot compare to the plot you
     constructed in Exercise 2? Does it change any of your conclusions
     about the data? Explain your reasoning.
+
+5.  **COVID survey - another view.** Create a different visualization of the 
+    Likert data for the six survey questions in from the plot in Exercise 2.
+    This should be a single plot visualizing the percentages of each possible 
+    answer, with different questions on the y-axis. Use an appropriate color 
+    scale and alignment.
+
