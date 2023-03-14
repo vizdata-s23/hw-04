@@ -1,0 +1,29 @@
+---
+title: "HW 04"
+author: "INSERT YOUR NAME HERE"
+format:
+  html:
+    embed-resources: true
+toc: true
+---
+
+## 1 - Key lyme pie
+
+```{r}
+#| label: label-me-1
+
+```
+
+## 2 - COVID survey - interpret
+
+```{r}
+#| label: label-me-2
+
+```
+
+## 3 - COVID survey - reconstruct
+
+
+## 4 - COVID survey - re-reconstruct
+
+## 5 - COVID survey - another view
