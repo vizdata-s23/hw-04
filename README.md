@@ -118,7 +118,7 @@ all checks pass.
         Black / African American, 4 - Native Hawaiian / Other Pacific
         Islander, 5 - White
 
-    -   `exp_ethnicity`: 0 - Non-Hispanic/Non-Latino, 1 - Hispanic /
+    -   `exp_ethnicity`: 2 - Non-Hispanic/Non-Latino, 1 - Hispanic /
         Latino
 
     -   `exp_age_bin`: 0 - \<20, 20 - 21-25, 25 - 26-30, 30 - \>30
